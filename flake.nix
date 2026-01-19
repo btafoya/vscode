@@ -21,7 +21,7 @@
         formatter = pkgs.nixfmt;
 
         packages = rec {
-          default = (pkgs.vscode.override { isInsiders = true; }).overrideAttrs
+          default = pkgs.vscode.overrideAttrs
             (oldAttrs: {
               src = (builtins.fetchTarball {
                 url =
