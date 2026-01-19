@@ -34,7 +34,7 @@
 
               meta.mainProgram = "code";
             });
-          vscode-insiders = default;
+          vscode = default;
         };
       };
 
