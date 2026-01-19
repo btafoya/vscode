@@ -11,6 +11,6 @@ This flake fetches the binary from a non-reproducible source and *will* break on
 Simply run the following command in your shell:
 
 ```bash
-nix run github:0ec2b5/code-insiders
+nix run github:btafoya/code-insiders
 ```
 
